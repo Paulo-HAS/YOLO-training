@@ -17,4 +17,5 @@ def RGB(event, x, y, flags, param):
 #captura de video da câmera
 cv2.namedWindow('RGB')
 cv2.setMouseCallback('RGB', RGB)
-cap=cv2.VideoCapture()
+webcam=cv2.VideoCapture(0)
+
